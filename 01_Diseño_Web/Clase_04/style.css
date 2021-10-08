@@ -22,3 +22,43 @@ h1 {
     background-color: darkolivegreen;
     border-radius: 5px;
 }
+
+.tomate {
+    background-color: tomato;
+    color: white;
+}
+
+.naranja {
+    background-color: orange;
+    color: white;
+}
+
+.azularcoiris {
+    background-color: DodgerBlue;
+    color: white;
+}
+
+.verdealga {
+    background-color: mediumseagreen;
+    color: white;
+}
+
+.gris {
+    background-color: gray;
+    color: white;
+}
+
+.azulmetalico {
+    background-color: slateblue;
+    color: white;
+}
+
+.violeta {
+    background-color: violet;
+    color: white;
+}
+
+.dorado {
+    background-color: gold;
+    color: white;
+}
