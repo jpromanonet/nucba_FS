@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+body {
+    background-color: lightyellow;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+.remove-bg {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+h1, h2, h3, p {
+    margin-top: 10px;
+    background-color: darkgoldenrod;
+}
+
+h1, .claseDos {
+    font-size: 40px;
+}
+
+.perritoSalchica {
+    background-color: maroon;
+}
+
+#perritoSalchica {
+    background-color: crimson;
+}
