@@ -19,7 +19,7 @@
 }*/
 
 body {
-    background-image: conic-gradient(red 45deg, orange 90deg, yellow 45deg);
+    background-image: linear-gradient(70deg, white, pink);
 }
 
 h1, h2, h3, p {
