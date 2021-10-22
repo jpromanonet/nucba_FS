@@ -1,0 +1,40 @@
+div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 10px;
+    /*transition: width, background 5s;
+    transition-delay: 1s;*/
+    position: relative;
+    animation-name: coloresGradiente;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.flex-container {
+    display: flex;
+}
+
+/*
+#div1 {transition-timing-function: linear;}
+#div2 {transition-timing-function: ease;}
+#div3 {transition-timing-function: ease-in;}
+#div4 {transition-timing-function: ease-out;}
+#div5 {transition-timing-function: ease-in-out;}
+
+div:hover {
+    width: 300px;
+    background: red;
+}
+*/
+
+@keyframes coloresGradiente {
+    0%  {background-color: red; left: 0px; top: 0px;}
+    25% {background-color: yellow; left: 200px; top: 0px;}
+    50% {background-color: maroon; left: 200px; top: 200px}
+    75% {background-color: mediumslateblue; left: 0px; top: 200px;}
+    100%    {background-color: mediumspringgreen; left: 0px; top: 0px;}
+}
