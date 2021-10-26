@@ -1,0 +1,26 @@
+.divCyan {
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.divCyan:hover {
+    transform: translate(50px, 100px);
+    transform: rotate(20deg);
+    transform: scaleY(0.5);
+    transform: skew(20deg);
+    transform: matrix(1, 0, 0.5, 1, 150, 180);
+}
+
+.divRosita {
+    background-color: palevioletred;
+    width: 300px;
+    height: 100px;
+}
+
+.divRosita:hover{
+    transform: rotateZ(90deg);
+    perspective: 100px;
+}
