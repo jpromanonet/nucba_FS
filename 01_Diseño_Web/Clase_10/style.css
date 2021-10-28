@@ -1,0 +1,156 @@
+:root {
+    --pale-blue: hsl(255, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+
+    --very-pale-blue: hsl(255, 100%, 98%);
+    --desatured-blue: hsl(221, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+@media only screen and (max-width: 1440px){
+
+    body{
+        background-image: url("./images/pattern-background-desktop.svg");
+        background-repeat: no-repeat;
+        background-color: var(--pale-blue);
+
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 16px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding: 100px 0;
+    }
+
+    .card_component {
+
+        height: 550px;
+        width: 30%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+
+        background-color: var(--very-pale-blue);
+        border-radius: 20px;
+
+        overflow: hidden;
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .title_component {
+
+        width: 80%;
+        height: 50px;
+        text-align: center;
+
+        margin-bottom: 20px;
+
+    }
+
+    .title_component h2 {
+        font-weight: 900;
+    }
+
+    .text_component {
+
+        width: 80%;
+        height: 70px;
+
+        margin-bottom: 20px;
+
+    }
+
+    .text_component p {
+
+        text-align: center;
+
+        color: var(--desatured-blue);
+        font-weight: 400;
+
+        margin-top: 0px
+
+    }
+
+    .plan_component {
+        background-color: hsla(255, 100%, 94%, 0.5);
+
+        width: 80%;
+        height: 70px;
+        margin-bottom: 30px;
+
+        font-size: smaller;
+
+        border-radius: 20px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .plan_container {
+        font-size: 12px;
+    }
+
+    .plan_container h2 .plan_container p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .plan_container h2 {
+        font-weight: 700;
+    }
+
+    .plan_container p {
+        color: var(--desatured-blue);
+        font-weight: 400;
+    }
+
+    .button_component {
+        display: flex;
+        flex-direction: column;
+
+        width: 80%;
+        height: 100px;
+    }
+
+    #proceed {
+        font-weight: 700;
+        background-color: var(--bright-blue);
+        color: var(--very-pale-blue);
+
+        height: 35%;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 2px;
+    }
+
+    #proceed:hover {
+        background-color: var(--dark-blue);
+    }
+
+    #cancel {
+        font-weight: 700;
+        background-color: var(--very-pale-blue);
+        color: var(--desatured-blue);
+
+        border: none;
+        height: 35%;
+        border-radius: 10px;
+    }
+
+    #cancel:hover {
+        background-color: var(--dark-blue);
+        color: var(--very-pale-blue);
+    }
+
+    
+}
