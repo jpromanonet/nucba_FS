@@ -28,7 +28,7 @@ const esteEsElSaludoFinal = "Chau!";
 // En Javascript, por defecto, todas las variables declaradas, son cadenas de texto o string. 
 
 // Vamos saludar
-// Declaro una constante para guardar el nombre del usuario.
+// Declaro una constan te para guardar el nombre del usuario.
 const nombre = prompt("¿Cual es tu nombre?");
 // Uso un alert para saludar concatenando con la variable nombre.
 alert("Hola " + nombre);
