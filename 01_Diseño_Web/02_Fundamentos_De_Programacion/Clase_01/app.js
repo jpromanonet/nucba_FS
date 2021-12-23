@@ -3,13 +3,16 @@
 // prompt("¿Que dia es hoy?");
 
 // Vamos a ver variables
+//
 // La version Old School
 var estoEsUnSaludo = "Hola!";
 // En var el scope es global, esto significa que declaro la variable y la puedo llamar desde cualquier parte del codigo, VAR te permite modificar su valor y actualmente no se recomienda su uso.
 
 // Desde ES6+
+//
 let estoEsOtroSaludo = "Bajale la espuma a tu chocolate";
 // Let tiene scope local, es decir, solo existe esa variable dentro del espacio que fue declarada y su valor puede ser modificado.
+//
 const esteEsElSaludoFinal = "Chau!";
 // Tiene la capacidad de trabajar con scope global y local, sin embargo no pueden ser modificadas.
 
@@ -40,5 +43,5 @@ const resultadoSuma = parseFloat(primerNumero)+parseFloat(segundoNumero);
 alert("La suma es: " + resultadoSuma);
 
 // NaN = Not a Number
-// parseInt() sirve para convertir un string de un numero entero a numero entero
-// parseFloat() toma un numero sea entero o decimal, en string y lo convierte a float o double.
+// parseInt() sirve para convertir un string a numero entero
+// parseFloat() toma un numero sea entero o decimal, en string y lo convierte a float o double numerico.
