@@ -19,7 +19,7 @@ if(bebida == 1 && edad >= 18){
     if(parseInt(pago) < 480){
         alert("El monto para realizar el pago es insuficiente");
     } else {
-        const vuelto = parseInt(pago) -480
+        const vuelto = parseInt(pago) - 480;
         alert("Muchas gracias por tu compra, tu vuelto es " + vuelto);
     }
 } else if(bebida == 1 && edad < 18){
